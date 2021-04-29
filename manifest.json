@@ -1,0 +1,18 @@
+{
+ "manifest_version": 2,
+  "name": "Tap Tap Whatsapp",
+  "short_name": "TTW",
+  "description": "This is an extension that allows you to start texting a number on WhatsApp with the least amount of steps.",
+  "version": "0.0.2",
+
+  "minimum_chrome_version": "38",
+  "permissions": [
+   "contextMenus"],
+   "icons": {
+	"128": "128.png"
+  },
+   "background": {
+    "scripts": ["jquery.js","background.js"]
+	},
+   "content_security_policy": "script-src 'self' https://ipinfo.io; object-src 'self'"
+}
